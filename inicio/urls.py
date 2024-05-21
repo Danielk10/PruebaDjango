@@ -20,6 +20,6 @@ from incio.views import Inicio
 urlpatterns = [
 
      # URLs para la informacion
-    path('', Incio.as_view(),name='index'),
+    path('', Inicio.as_view(),name='index'),
     
 ]
